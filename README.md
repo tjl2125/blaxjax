@@ -14,19 +14,24 @@
 </p>
 
 ## Table of Contents
-- [Description](#description)
-- [User Story](#user-story)
-- [Acceptance Criteria](#acceptance-criteria)
-- [Table of Contents](#table-of-contents)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Questions](#questions)
+- [Description](#Description)
+- [Deployed Link](#Deployed-Link)
+- [User Story](#User-Story)
+- [Acceptance Criteria](#Acceptance-Criteria)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Contributing](#Contributing)
+- [Questions](#Questions)
+- [Demo](#Demo)
+- [Made With](#Made-With)
    
 ## Description
 
 This is a simple Blackjack app that enables a user to set up a profile and login under that profile to play blackjack.  The user will compete against the dealer, and will be ranked against prior players.  It utilizes MYSQL
-  
+
+## Deployed Link
+Heroku Link: https://blaxjax.herokuapp.com/
+
 ## User Story
   
 AS A USER,
@@ -52,18 +57,20 @@ THEN I win the round
 ## Installations
 Before starting, please have Node.js and npm installed on your computer. Then clone the repo. Add a .env file to your root directory. Fill out the .env file with your information as so:
 
+```
 DB_NAME=blackjack_db
 DB_USER=
 DB_PW=
+```
 
 Install the dependencies by opening the integrated terminal in your root termainal and entering: 
-
+```
 npm i 
-
+```
 Run the seed that is located in seeds/seeds.js:
-
+```
 npm run seed
-
+```
 Then connect to the server:
 
 
@@ -71,22 +78,22 @@ Then connect to the server:
 💻   
 
 ## Contributing
-: [Byungwook Yoon (Ethan)](https://github.com/byung90/)
-: [Dwyane (Shangxian) Piao](https://github.com/sj212131)
-: [Taylor Leong](https://github.com/tjl2125/)
-: [Phil Katz](https://github.com/PKatz1/)
+- [Byungwook Yoon (Ethan)](https://github.com/byung90/)
+- [Dwyane (Shangxian) Piao](https://github.com/sj212131)
+- [Taylor Leong](https://github.com/tjl2125/)
+- [Phil Katz](https://github.com/PKatz1/)
 
 
 ## Questions
 ✉️ Contact us with any questions: 
 
-[Ethan email](mailto:....com) , [GitHub](https://github.com/byung90/) 
+-[Ethan email](mailto:....com) , [GitHub](https://github.com/byung90/) 
 
-[Dwayne email](mailto:....com) , [GitHub](https://github.com/sj212131) 
+-[Dwayne email](mailto:....com) , [GitHub](https://github.com/sj212131) 
 
-[Taylor email](mailto:....com) , [GitHub](https://github.com/tjl2125/) 
+-[Taylor email](mailto:tjl2125@alum.barnard.edu) , [GitHub](https://github.com/tjl2125/) 
 
-[Phil email](mailto:pkatz@finkkatz.com), [GitHub](https://github.com/PKatz1/)
+-[Phil email](mailto:pkatz@finkkatz.com), [GitHub](https://github.com/PKatz1/)
 
 ### Demo
 ![Login and Signup](./public/img/login-and-signup.png)
