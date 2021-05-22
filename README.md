@@ -33,14 +33,14 @@ This is a simple Blackjack app that enables a user to set up a profile and login
 Heroku Link: https://blaxjax.herokuapp.com/
 
 ## User Story
-  
+```
 AS A USER,
 I WANT TO be able to login to my profile to play Blackjack
 SO THAT I can try my luck against the dealer.
 IT’S DONE when I play Blackjack, win, lose or draw.
-  
+```  
 ## Acceptance Criteria
-
+```
 GIVEN a functional Express.js API
 WHEN I create a profile
 THEN I am able to login to the profile page
@@ -52,7 +52,7 @@ WHEN I hit, an additional card is provided to me
 THEN if the card value is not greater than 21 I will have the option to hit or stay again, but if the value is over 21 I will bust and lose the game
 WHEN I have a final card score of less than 21 but greater than the dealer
 THEN I win the round
-
+```
 
 ## Installations
 Before starting, please have Node.js and npm installed on your computer. Then clone the repo. Add a .env file to your root directory. Fill out the .env file with your information as so:
