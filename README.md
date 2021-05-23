@@ -96,9 +96,7 @@ Then connect to the server:
 -[Phil email](mailto:pkatz@finkkatz.com), [GitHub](https://github.com/PKatz1/)
 
 ### Demo
-![Login and Signup](./public/img/login-and-signup.png)
-
-![Profile Page](./public/img/profile.png)
+![BlaxJax Demo](https://media.giphy.com/media/oCRJEcptWmkHhYQZdZ/giphy.gif)
 
 
 ### Made with:
